@@ -1,0 +1,34 @@
+<dom-module id="checkout-form">
+  <style>
+    :host {
+      display: block;
+    }
+
+    .form-title {
+      margin-bottom: 20px;
+    }
+
+    .avatar {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #3367d6;
+      margin-right: 20px;
+    }
+
+    .company {
+      color: #3367d6;
+      font-size: 20px;
+      font-weight: 200;
+    }
+  </style>
+
+  <template>
+    <div class="horizontal layout center form-title">
+      <div class="avatar" item-icon></div>
+      <div class="flex company">ACME Goods Co.</div>
+    </div>
+  </template>
+</dom-module>
