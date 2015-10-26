@@ -2,9 +2,7 @@
 library pdcl_form.lib.main_app;
 
 import 'dart:html';
-
 import 'checkout_form.dart';
-
 import 'package:polymer_elements/iron_form.dart';
 import 'package:polymer_elements/paper_input.dart';
 import 'package:polymer_elements/paper_button.dart';
@@ -12,7 +10,6 @@ import 'package:polymer_elements/gold_cc_input.dart';
 import 'package:polymer_elements/gold_email_input.dart';
 import 'package:polymer_elements/gold_cc_cvc_input.dart';
 import 'package:polymer_elements/gold_cc_expiration_input.dart';
-
 import 'package:polymer_elements/paper_material.dart';
 import 'package:polymer/polymer.dart';
 import 'package:web_components/web_components.dart';
