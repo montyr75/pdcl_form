@@ -1,19 +1,18 @@
 name: 'pdcl_form'
 version: 0.0.1
 description: A web app built using polymer.dart.
-#author: Your Name <email@example.com>
-#homepage: https://www.example.com
+author: Monty Rasmussen
+homepage: https://dart.academy
 
 environment:
   sdk: '>=1.9.0 <2.0.0'
 
 dependencies:
   browser: ^0.10.0
-  polymer_elements: ^1.0.0-rc.2
-  polymer: ^1.0.0-rc.3
+  polymer_elements: ^1.0.0-rc.3
+  polymer: ^1.0.0-rc.6
   reflectable: ^0.3.1
   web_components: ^0.12.0
-  analyzer: 0.26.1+14
 
 transformers:
 - web_components:
