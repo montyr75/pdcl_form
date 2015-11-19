@@ -2,7 +2,7 @@
 library pdcl_form.lib.checkout_form;
 
 import 'dart:html';
-import 'package:polymer_elements/iron_flex_layout.dart';
+import 'package:polymer_elements/iron_flex_layout/classes/iron_flex_layout.dart';
 import 'package:polymer/polymer.dart';
 import 'package:web_components/web_components.dart';
 
